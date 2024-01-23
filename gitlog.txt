@@ -1,0 +1,12 @@
+5b5122f Merge branch 'features'
+106a47d changed text line
+9a5408c changed text
+30916c9 Merge branch 'features'
+dfe55b3 changed new_features.txt file
+aa7f08b changed file_1.txt
+a0b2e2a changed file new_features.txt
+3c0ac29 create file new_features.txt
+d2c7f7f changed Readme.md file
+0a4c0be changed file_2.txt
+3e068f4 changed file_1.txt
+70283c3 create new files

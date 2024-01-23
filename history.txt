@@ -1,0 +1,109 @@
+  196  mkdir git-practice-razedori
+  197  cd git-practice-razedori
+  198  git init
+  200  git status
+  203  git status
+  204  git add file_1.txt file_2.txt
+  205  git status
+  206  git commit -m "create new files"
+  207  git status
+  208  git log
+  209  git status
+  210  git add file_1.txt"\n
+  211  git add file_1.txt
+  212  git commit -m "changed file_1.txt"
+  213  git status
+  214  git add file_2.txt
+  215  git commit -m "changed file_2.txt"
+  216  git log
+  218  git add Readme.md
+  219  git commit -m "changed Readme.md file"
+  221  code .gitignore
+  222  touch .gitignore
+  223  git status
+  225  git status
+  227  git status
+  228  git branch features
+  229  git checkout features
+  230  git log
+  232  git add new_features.txt
+  233  git commit -m "create file new_features.txt"
+  234  git commit -m "add empty file"
+  235  git add new_features.txt
+  236  git commit -m "add empty file"
+  239  git add new_features.txt
+  240  git commit -m "add empty file"
+  242  git status
+  244  git add new_features.txt
+  245  git commit -m "add empty file"
+  246  git status
+  247  git add new_features.txt
+  248  git commit -m "changed file new_features.txt"
+  249  git status
+  250  git log
+  251  git checkout main
+  252  git log
+  253  git status
+  254  git status
+  255  git add file_1.txt
+  256  git commit -m "changed file_1.txt"
+  257  git checkout features
+  258  git add new_features.txt
+  259  git commit -m "changed new_features.txt file"
+  260  git checkout main
+  261  git merge features
+  262  git log
+  263  git checkout features
+  264  git checkout main
+  265  git add new_features.txt
+  266  git commit -m "changed text"
+  267  git checkout features
+  268  git add new_features.txt
+  269  git commit -m "changed text line"
+  270  git checkout main
+  271  git merge features
+  272  git status
+  273  git branch -d features
+  274  git remote add origin git@github.com:razedori/git-practice-razedori.git
+  275  git push -u origin main
+  277  git clone https://github.com/razedori/git-practice-dylanbay11/branches
+  278  git clone https://github.com/razedori/git-practice-dylanbay11
+  279  git branch feature-razedori
+  280  git init
+  281  git branch feature-razedori
+  283  cd git-practice-dylanbay11
+  284  git branch feature-razedori
+  286  git add bankai.txt
+  287  git commit -m "new line"
+  288  git push origin feature-razedori
+  289  git status
+  291  git checkout feature-razedori
+  293  git add shikai.txt
+  294  git commit -m "new line"
+  295  git checkout feature-razedori
+  296  git push origin feature-razedori
+  297  git push origin feature-razedori
+  298  git push origin feature-razedori
+  299  git log
+  300  git push origin feature-razedori
+  301  git remote -v
+  302  git add origin git@github.com/razedori/git-practice-dylanbay11
+  303  git push origin feature-razedori
+  304  git push origin git@github.com/razedori/git-practice-dylanbay11
+  305  git push  origin\thttps://github.com/razedori/git-practice-dylanbay11
+  306  git push  origin https://github.com/razedori/git-practice-dylanbay11
+  307  git push origin feature-razedori\n
+  308  git remote add origin git@github.com:razedori/git-practice-dylanbay11.git
+  309  git push -u origin main
+  310  git push origin feature-razedori\n
+  311  git push origin feature-razedori\n
+  314  git switch main
+  316  cd git-practice-dylanbay11
+  317  git push origin feature-razedori\n
+  318  git push origin feature-razedori\n
+  319  git pull
+  320  git pull
+  322  git switch feature-razedori
+  324  git switch main
+  326  cd git-practice-razedori
+  327  git log --oneline > gitlog.txt
